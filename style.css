@@ -1,0 +1,163 @@
+body {
+  font-family: 'Lustria', serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo_principal {
+  max-width: 300px;
+}
+
+.texto__cabecalho {
+  font-size: 1.5em;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.cabecalho__botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.cabecalho__botao:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.secao1__descricao {
+  margin-bottom: 20px;
+}
+
+.secao1__titulo {
+  font-size: 2.0em;
+  color: #000000;
+}
+
+.secao1__texto {
+  font-size: 1.5em;
+  color: #000000;
+  text-align:justify;
+}
+
+.secao2__titulo {
+  font-size: 1.6em;
+  color: #000000;
+  text-align: center;
+}
+
+.secao2__subtitulo {
+  font-size: 0.7em;
+  color: #000000;
+  text-align: center;
+}
+
+.secao1__imagem {
+  max-width: 50%;
+  height: 500px;
+}
+
+.secao2__imagens {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.secao2__imagens img {
+  max-width: 75%;
+  height: auto;
+  margin: 5px 90px 5px;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+.secao3__imagem {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.secao3__info {
+  font-size: 1.3em;
+  color: #000000;
+}
+
+.secao4__imagem img {
+  max-width: 50%;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.relogio {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.contador {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.contador-digito {
+  font-size: 2em;
+  background-color: #6ee320;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  min-width: 100px;
+}
+
+.contador-digito-texto {
+  font-size: 0.5em;
+}
+
+.rodape {
+  background-color: #454545;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__lista {
+  list-style: none;
+  padding: 0;
+}
+
+.rodape__lista li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.rodape__lista a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.rodape__lista a:hover {
+  text-decoration: underline;
+}
+
+.rodape__texto {
+  margin-top: 10px;
+}
